@@ -16,6 +16,10 @@
 		F85F54A327E34D2600E7D6B7 /* BillBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85F54A227E34D2600E7D6B7 /* BillBoardTests.swift */; };
 		F85F54AD27E34D2600E7D6B7 /* BillBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85F54AC27E34D2600E7D6B7 /* BillBoardUITests.swift */; };
 		F85F54AF27E34D2600E7D6B7 /* BillBoardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85F54AE27E34D2600E7D6B7 /* BillBoardUITestsLaunchTests.swift */; };
+		F8A71E1427F34E2000C2C98F /* SeguePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A71E1327F34E2000C2C98F /* SeguePushViewController.swift */; };
+		F8A71E1627F3503A00C2C98F /* SuguePresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A71E1527F3503A00C2C98F /* SuguePresentViewController.swift */; };
+		F8A71E1827F3546000C2C98F /* CodePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A71E1727F3546000C2C98F /* CodePushViewController.swift */; };
+		F8A71E1A27F3571A00C2C98F /* CodePresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A71E1927F3571A00C2C98F /* CodePresentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		F85F54A827E34D2600E7D6B7 /* BillBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BillBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F85F54AC27E34D2600E7D6B7 /* BillBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillBoardUITests.swift; sourceTree = "<group>"; };
 		F85F54AE27E34D2600E7D6B7 /* BillBoardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillBoardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F8A71E1327F34E2000C2C98F /* SeguePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeguePushViewController.swift; sourceTree = "<group>"; };
+		F8A71E1527F3503A00C2C98F /* SuguePresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuguePresentViewController.swift; sourceTree = "<group>"; };
+		F8A71E1727F3546000C2C98F /* CodePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePushViewController.swift; sourceTree = "<group>"; };
+		F8A71E1927F3571A00C2C98F /* CodePresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePresentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				F85F549427E34D2600E7D6B7 /* Assets.xcassets */,
 				F85F549627E34D2600E7D6B7 /* LaunchScreen.storyboard */,
 				F85F549927E34D2600E7D6B7 /* Info.plist */,
+				F8A71E1327F34E2000C2C98F /* SeguePushViewController.swift */,
+				F8A71E1527F3503A00C2C98F /* SuguePresentViewController.swift */,
+				F8A71E1727F3546000C2C98F /* CodePushViewController.swift */,
+				F8A71E1927F3571A00C2C98F /* CodePresentViewController.swift */,
 			);
 			path = BillBoard;
 			sourceTree = "<group>";
@@ -258,7 +270,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8A71E1627F3503A00C2C98F /* SuguePresentViewController.swift in Sources */,
+				F8A71E1827F3546000C2C98F /* CodePushViewController.swift in Sources */,
+				F8A71E1427F34E2000C2C98F /* SeguePushViewController.swift in Sources */,
 				F85F549027E34D2500E7D6B7 /* ViewController.swift in Sources */,
+				F8A71E1A27F3571A00C2C98F /* CodePresentViewController.swift in Sources */,
 				F85F548C27E34D2500E7D6B7 /* AppDelegate.swift in Sources */,
 				F85F548E27E34D2500E7D6B7 /* SceneDelegate.swift in Sources */,
 			);
